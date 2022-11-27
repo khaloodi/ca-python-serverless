@@ -1,9 +1,9 @@
 #!/bin/bash
 
-BUCKET=bucket
-REGION=us-east-1
-ACCOUNT_ID=account
-STACK_NAME=TodoServerlessAPI
+BUCKET=ca-python-serverless-todo
+REGION=us-east-2
+ACCOUNT_ID=944905677665
+STACK_NAME=TodoServerlessAPIStack
 
 aws s3 mb s3://$BUCKET --region $REGION
 cat > ./s3_policy.json <<EOM
